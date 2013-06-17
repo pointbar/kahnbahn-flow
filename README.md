@@ -3,11 +3,11 @@
 A Cumulative Flow Chart for [Trello](http://trello.com) Kanban board using [chart.js](http://www.chartjs.org/)
 
 ## Installation
-  $ mkdir kahnbahn-flow
-  $ cd kahnbahn-flow
-  $ git clone git@github.com:pointbar/kahnbahn-flow.git .
-  $ ./scripts/web-server.js
-  $ open http://127.0.0.1:8000
+    $ mkdir kahnbahn-flow
+    $ cd kahnbahn-flow
+    $ git clone git@github.com:pointbar/kahnbahn-flow.git .
+    $ ./scripts/web-server.js
+    $ open http://127.0.0.1:8000
 
 ## Requirements
 **Trello token** (required): a string containing the Trello key [available for developers](https://trello.com/1/appKey/generate)
