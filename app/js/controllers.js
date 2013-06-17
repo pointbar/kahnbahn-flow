@@ -5,6 +5,7 @@
 angular.module('KBFlow.controllers', ['KBFlow.services']).
   controller('Cards', ['$scope', '$http', 'cards', function($scope, $http, cards) {
     $scope.cards = cards;
+    $scope.data = [50,48,4,19,36,27,30];
   }])
   // -TODO- refacto
   .controller('TrelloAuth', ['$scope', 'lists', function($scope, lists) {

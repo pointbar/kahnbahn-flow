@@ -37,4 +37,4 @@ angular.module('KBFlow.services', ['ngResource']).
         key: '&key=' + key,
         token: '&token=' + token
       }, ressource)
-  });
+  })
