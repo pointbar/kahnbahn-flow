@@ -1,0 +1,11 @@
+<h1>Trello Authorization</h1>
+<form ng-submit="save()">
+  <label>Key application : <input ng-model="trelloKey"></label>
+  <label>Token : <input ng-model="trelloToken"></label>
+  <input type="submit" value="√">
+  <input type="button" value="x" ng-click="remove()">
+</form>
+<h2>Trello lists</h2>
+<ul>
+  <li ng-repeat="list in trelloLists">{{list.name}}</li>
+</ul>
